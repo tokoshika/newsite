@@ -1,0 +1,17 @@
+p {
+  width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+span {
+  color: red;
+}
+.website {
+  color: steelblue;
+  margin-bottom: 1rem;
+}
+
+a:hover {
+  color: pink;
+}

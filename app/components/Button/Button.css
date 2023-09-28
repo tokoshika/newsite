@@ -1,0 +1,70 @@
+.button.red {
+  width: 500px;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  margin-bottom: 1rem;
+}
+.button.purple {
+  width: 500px;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  margin-bottom: 1rem;
+}
+.button.black {
+  width: 500px;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-bottom: 1rem;
+}
+.button.green {
+  width: 500px;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  margin-bottom: 1rem;
+}
+.button.skyblue {
+  width: 500px;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: skyblue;
+  color: white;
+  margin-bottom: 1rem;
+}
+.button.darkslategray {
+  width: 500px;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: darkslategray;
+  color: white;
+  margin-bottom: 1rem;
+}
+.button.darkslategray2 {
+  width: 500px;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: darkslategray;
+  color: darkslategray;
+  margin-bottom: 1rem;
+}

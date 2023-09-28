@@ -1,7 +1,6 @@
-"use client";
 import Link from "next/link";
-import "./style.css";
-const App = () => {
+import "../style.css";
+const Friend = () => {
   return (
     <>
       <div className="header">
@@ -21,9 +20,9 @@ const App = () => {
           地図
         </Link>
       </div>
-      This is HOME(APP)
+      This is Friend.js
     </>
   );
 };
 
-export default App;
+export default Friend;
