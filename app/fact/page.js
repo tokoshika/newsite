@@ -8,7 +8,7 @@ import Fact1 from "./fact1";
 import Fact2 from "./fact2";
 import Fact3 from "./fact3";
 import Fact4 from "./fact4";
-import Fact5 from "./fact5";
+
 const Fact = () => {
   return (
     <>
@@ -58,15 +58,14 @@ const Fact = () => {
         <hr></hr>
 
         <h3 style={{ color: "gray", "margin-top": "1rem" }}>韓国でおきた事</h3>
-        <Button2 props="btn" color="darkslategray" name={<Fact4 />} />
-        <Button2 props="btn" color="darkslategray" name={<Fact5 />} />
+        <Button2 props="日韓併合" color="darkslategray" />
+        <Button2 props="徴用工・従軍慰安婦" color="darkslategray" />
         <h3 style={{ color: "gray", "margin-top": "1rem" }}>
           <hr></hr>
           アメリカでおきた事
         </h3>
-        <Button2 props="btn" color="darkslategray" />
+        <Button2 props="真珠湾攻撃" color="darkslategray" />
       </div>
-      <br></br>
       <br></br>
       <br></br>
     </>

@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import "./style.css";
+import Fn from "./photo/nanjin.js";
+
 const App = () => {
   return (
     <>
