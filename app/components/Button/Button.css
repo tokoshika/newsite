@@ -39,13 +39,13 @@
   margin-bottom: 1rem;
 }
 .button.skyblue {
-  width: 500px;
+  width: 400px;
   height: 50px;
   border: none;
   font-size: 1.5rem;
   border-radius: 5px;
   background-color: skyblue;
-  color: white;
+  color: black;
   margin-bottom: 1rem;
 }
 .button.darkslategray {

@@ -5,7 +5,6 @@ const Button = ({ props = "button", color = "black", name }) => {
   const [visible, setVisible] = useState(false);
   const btnClick = () => {
     setVisible(!visible);
-    console.log(visible);
   };
 
   const Button2 = { props, color, name };

@@ -1,0 +1,10 @@
+.main-container {
+  width: 400px;
+  height: 75px;
+  /* background-color: grey; */
+  margin-top: 0;
+}
+
+span {
+  color: pink;
+}

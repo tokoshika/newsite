@@ -23,3 +23,19 @@ html {
   background-color: black;
   color: white;
 }
+
+.button-anive {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  margin-right: 0.5rem;
+}
+.right {
+  margin-left: 0.5rem;
+}
+
+.title {
+  text-align: center;
+}
