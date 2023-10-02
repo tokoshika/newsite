@@ -47,6 +47,36 @@ const Jiken = () => {
           priority={false}
           alt="万人坑"
         />
+
+        <Image
+          src="/assets/dai3.jpg"
+          width={700}
+          height={450}
+          priority={false}
+          alt="記念碑"
+        />
+        <p>
+          <span>故人の名前や写真</span>
+        </p>
+        <Image
+          src="/assets/dai2.jpg"
+          width={700}
+          height={450}
+          priority={false}
+          alt="記念碑"
+        />
+        <p>
+          <span>追悼式典</span>
+        </p>
+        <Image
+          className="bottom"
+          src="/assets/dai5.jpg"
+          width={700}
+          height={450}
+          priority={false}
+          alt="記念碑"
+        />
+        <br />
       </div>
     </>
   );

@@ -31,3 +31,7 @@ span {
   padding: 8px;
   background-color: rgb(39, 33, 33);
 }
+
+.bottom {
+  margin-bottom: 2rem;
+}
