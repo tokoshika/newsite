@@ -2,9 +2,6 @@
 import Link from "next/link";
 import "../style.css";
 import Button from "../components/Button/Button.js";
-import Fact1 from "../fact/fact1";
-import Fact2 from "../fact/fact2";
-import Fact3 from "../fact/fact3";
 
 import Aniv1 from "../components/Aniv/Aniv1";
 import Aniv2 from "../components/Aniv/Aniv2";
