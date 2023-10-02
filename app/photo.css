@@ -1,0 +1,33 @@
+.mainContainer {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  margin: 2rem;
+}
+
+html {
+  background-color: black;
+}
+
+p {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.jiken {
+  width: 55%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+span {
+  color: red;
+}
+
+.explanation {
+  padding: 8px;
+  background-color: rgb(39, 33, 33);
+}
