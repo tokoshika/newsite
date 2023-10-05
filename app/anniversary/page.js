@@ -9,6 +9,7 @@ import Aniv3 from "../components/Aniv/Aniv3";
 import Aniv4 from "../components/Aniv/Aniv4";
 import Aniv5 from "../components/Aniv/Aniv5";
 import Aniv6 from "../components/Aniv/Aniv6";
+import Aniv7 from "../components/Aniv/Aniv7";
 
 const Annive = () => {
   return (
@@ -42,6 +43,13 @@ const Annive = () => {
           <Button props="中国" color="skyblue" name={<Aniv4 />} />
           <Button props="ロシア" color="skyblue" name={<Aniv6 />} />
         </div>
+      </div>
+      <div className="main-container2">
+        <Button
+          props="ウクライナ侵攻後"
+          color="ukr"
+          name={<Aniv7 />}
+        ></Button>
       </div>
     </>
   );

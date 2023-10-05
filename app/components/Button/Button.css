@@ -8,13 +8,13 @@
   color: white;
   margin-bottom: 1rem;
 }
-.button.purple {
-  width: 500px;
+.button.ukr {
+  width: 400px;
   height: 50px;
   border: none;
   font-size: 1.5rem;
   border-radius: 5px;
-  background-color: purple;
+  background-color: red;
   color: white;
   margin-bottom: 1rem;
 }

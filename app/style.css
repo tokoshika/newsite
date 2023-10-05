@@ -29,13 +29,14 @@ html {
   justify-content: center;
 }
 
+.russia,
+.title {
+  text-align: center;
+}
+
 .left {
   margin-right: 0.5rem;
 }
 .right {
   margin-left: 0.5rem;
-}
-
-.title {
-  text-align: center;
 }
