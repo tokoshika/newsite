@@ -15,7 +15,7 @@ const Fact = () => {
     <>
       <Header />
       <div className="button">
-        <h3 style={{ color: "gray", "margin-top": "1rem" }}>日本でおきた事</h3>
+        <h3 style={{ color: "gray", "margin-top": "1rem" }}>日本</h3>
         <br></br>
         <Button
           props="ヒロシマ原爆投下"

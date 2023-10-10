@@ -5,10 +5,10 @@ p {
 }
 
 span {
-  color: red;
+  color: rgb(85, 195, 238);
 }
 .website {
-  color: steelblue;
+  color: darkgray;
   margin-bottom: 1rem;
 }
 
