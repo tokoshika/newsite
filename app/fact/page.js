@@ -3,6 +3,7 @@ import Link from "next/link";
 import "../style.css";
 import Button from "../components/Button/Button.js";
 import Button2 from "../components/Button/Button2.js";
+import Header from "../components/Header";
 
 import Fact1 from "./fact1";
 import Fact2 from "./fact2";
@@ -12,23 +13,7 @@ import Fact4 from "./fact4";
 const Fact = () => {
   return (
     <>
-      <div className="header">
-        <Link href="/" className="no-underline ">
-          ホーム
-        </Link>
-        <Link href="fact" className="no-underline ">
-          出来事
-        </Link>
-        <Link href="anniversary" className="no-underline ">
-          記念日
-        </Link>
-        <Link href="friend" className="no-underline ">
-          友達
-        </Link>
-        <Link href="map" className="no-underline ">
-          地図
-        </Link>
-      </div>
+      <Header />
       <div className="button">
         <h3 style={{ color: "gray", "margin-top": "1rem" }}>日本でおきた事</h3>
         <br></br>

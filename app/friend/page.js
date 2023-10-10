@@ -1,7 +1,7 @@
 "use client";
 import "../style.css";
-import Link from "next/link";
 import Button from "../components/Button/Button.js";
+import Header from "../components/Header";
 
 import Friend1 from "../components/Friend/Friend1.js";
 import Friend2 from "../components/Friend/Friend2.js";
@@ -14,23 +14,7 @@ import Friend8 from "../components/Friend/Friend8.js";
 const Friend = () => {
   return (
     <>
-      <div className="header">
-        <Link href="/" className="no-underline ">
-          ホーム
-        </Link>
-        <Link href="fact" className="no-underline ">
-          出来事
-        </Link>
-        <Link href="anniversary" className="no-underline ">
-          記念日
-        </Link>
-        <Link href="friend" className="no-underline ">
-          友達
-        </Link>
-        <Link href="map" className="no-underline ">
-          地図
-        </Link>
-      </div>
+      <Header />
       <div className="friend-button-container">
         <Button props="中国人女子（20学生）" color="green" name={<Friend1 />} />
         <Button

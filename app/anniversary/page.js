@@ -2,6 +2,7 @@
 import Link from "next/link";
 import "../style.css";
 import Button from "../components/Button/Button.js";
+import Header from "../components/Header";
 
 import Aniv1 from "../components/Aniv/Aniv1";
 import Aniv2 from "../components/Aniv/Aniv2";
@@ -14,23 +15,7 @@ import Aniv7 from "../components/Aniv/Aniv7";
 const Annive = () => {
   return (
     <>
-      <div className="header">
-        <Link href="/" className="no-underline ">
-          ホーム
-        </Link>
-        <Link href="fact" className="no-underline ">
-          出来事
-        </Link>
-        <Link href="anniversary" className="no-underline ">
-          記念日
-        </Link>
-        <Link href="friend" className="no-underline ">
-          友達
-        </Link>
-        <Link href="map" className="no-underline ">
-          地図
-        </Link>
-      </div>
+      <Header />
       <h1 className="title">ここは記念日</h1>
       <div className="button button-anive">
         <div className="left">
@@ -45,11 +30,7 @@ const Annive = () => {
         </div>
       </div>
       <div className="main-container2">
-        <Button
-          props="ウクライナ侵攻後"
-          color="ukr"
-          name={<Aniv7 />}
-        ></Button>
+        <Button props="ウクライナ侵攻後" color="ukr" name={<Aniv7 />}></Button>
       </div>
     </>
   );
