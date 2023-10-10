@@ -60,3 +60,13 @@ html {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+.main-title {
+  margin-top: 2rem;
+  padding-left: 4rem;
+  text-align: left;
+}
+
+.sub-title {
+  color: skyblue;
+}
