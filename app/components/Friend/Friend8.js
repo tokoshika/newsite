@@ -1,4 +1,4 @@
-import "./friend.css";
+// import "./friend.css";
 export default function Friend8() {
   return (
     <>
@@ -12,4 +12,3 @@ export default function Friend8() {
     </>
   );
 }
-

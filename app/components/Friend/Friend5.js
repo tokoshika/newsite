@@ -1,4 +1,4 @@
-import "./friend.css";
+// import "./friend.css";
 export default function Friend5() {
   return (
     <>
