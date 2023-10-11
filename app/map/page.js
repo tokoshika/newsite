@@ -43,7 +43,7 @@ const Map = () => {
             src="/assets/asia01.png"
             width={700}
             height={450}
-            priority={false}
+            priority={true}
             alt="記念碑"
           />
         )}
