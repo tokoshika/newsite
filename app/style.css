@@ -70,3 +70,8 @@ html {
 .sub-title {
   color: skyblue;
 }
+
+h3 {
+  color: grey;
+  margin-top: 1rem;
+}

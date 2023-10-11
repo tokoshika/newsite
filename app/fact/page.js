@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import "../style.css";
 import Button from "../components/Button/Button.js";
 import Button2 from "../components/Button/Button2.js";
@@ -15,7 +14,7 @@ const Fact = () => {
     <>
       <Header />
       <div className="button">
-        <h3 style={{ color: "gray", "margin-top": "1rem" }}>日本</h3>
+        <h3>日本</h3>
         <br></br>
         <Button
           props="ヒロシマ原爆投下"
@@ -28,7 +27,7 @@ const Fact = () => {
           name={<Fact2 />}
         />
         <hr></hr>
-        <h3 style={{ color: "gray", "margin-top": "1rem" }}>中国でおきた事</h3>
+        <h3>中国でおきた事</h3>
 
         <Button2
           props="南京事件（大虐殺）"
@@ -42,10 +41,10 @@ const Fact = () => {
         />
         <hr></hr>
 
-        <h3 style={{ color: "gray", "margin-top": "1rem" }}>韓国でおきた事</h3>
+        <h3>韓国でおきた事</h3>
         <Button2 props="日韓併合" color="darkslategray" />
         <Button2 props="徴用工・従軍慰安婦" color="darkslategray" />
-        <h3 style={{ color: "gray", "margin-top": "1rem" }}>
+        <h3>
           <hr></hr>
           アメリカでおきた事
         </h3>
