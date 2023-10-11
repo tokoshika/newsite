@@ -6,16 +6,16 @@ export default function header() {
         <Link href="/" className="no-underline ">
           ホーム
         </Link>
-        <Link href="map" className="no-underline ">
+        <Link href="/map" className="no-underline ">
           地図
         </Link>
-        <Link href="anniversary" className="no-underline ">
+        <Link href="/anniversary" className="no-underline ">
           記念日
         </Link>
-        <Link href="fact" className="no-underline ">
+        <Link href="/fact" className="no-underline ">
           出来事
         </Link>
-        <Link href="friend" className="no-underline ">
+        <Link href="/friend" className="no-underline ">
           友達
         </Link>
       </div>
