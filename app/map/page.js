@@ -10,7 +10,6 @@ const Map = () => {
   const [map, setMap] = useState(false);
   const changeMap = () => {
     setMap(!map);
-    console.log(map);
   };
 
   return (
