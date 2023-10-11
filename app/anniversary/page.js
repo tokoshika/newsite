@@ -1,6 +1,6 @@
 "use client";
-import Link from "next/link";
-import "../style.css";
+
+// import "../style.css";
 import Button from "../components/Button/Button.js";
 import Header from "../components/Header";
 
